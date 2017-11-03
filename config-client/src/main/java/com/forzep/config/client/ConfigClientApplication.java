@@ -14,7 +14,7 @@ public class ConfigClientApplication {
 		SpringApplication.run(ConfigClientApplication.class, args);
 	}
 
-	@Value("${democonfigclient.message}")
+	@Value("${hystrix.command.default.execution.timeout.enabled}")
 	String foo;
 	@RequestMapping(value = "/hi")
 	public String hi(){

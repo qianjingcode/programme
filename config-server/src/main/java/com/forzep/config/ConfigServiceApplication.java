@@ -12,5 +12,5 @@ public class ConfigServiceApplication {
 		SpringApplication.run(ConfigServiceApplication.class, args);
 	}
 
-
+//访问 http://localhost:8888/service-config/dev/dev
 }
